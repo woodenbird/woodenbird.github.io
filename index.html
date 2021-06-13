@@ -21,17 +21,19 @@
 			font-family:'cyphers' ;
 			position: fixed;
 			bottom: 0;
-			left: 0;
-			width: 60%;
+			left: 21%;
+			width: 36%;
 			height: 20vh;
 			border: 2px gold outset;
 			border-radius: 30px;
 			background-color: lightsteelblue;
 			position: fixed;
 			z-index: 2;
-			box-shadow: 22px 30px 12px 10px rgb(193, 230, 253);
 		}
-		.lpgo{
+		.code:hover{
+			font-family: 'Courier New', Courier, monospaces;
+		}
+		.instagram{
 			position: fixed;
 			left: 0;
 			bottom: 0;
@@ -41,10 +43,10 @@
 			border-radius: 30% 80% 30% 60% / 0% 80% 10% 80%;
 			background-color: rgb(147, 197, 255);
 			z-index: 3;
-			box-shadow: 22px 30px 12px 10px rgb(193, 230, 253);
+			
 			/*U comment*/
 		}
-		.instagram{
+		.lpgo{
 			position: fixed;
 			left: 0;
 			bottom: 0;
@@ -53,6 +55,9 @@
 			border: 2px gold outset;
 			border-radius: 25% 10%;
 			background-color:rgb(147, 197, 255);
+			background-image: url(img/lg\ 2.jpg);
+			background-size: cover;
+			background-position: center center; 
 			z-index: 4;
 			box-shadow: 22px 30px 12px 10px rgb(193, 230, 253);
 		}
@@ -65,8 +70,13 @@
 			border: 2px gold outset;
 			border-radius: 30px;
 			background-color: rgb(193, 230, 253);
-			box-shadow: 22px 30px 12px 10px rgb(193, 230, 253);
+
 		}
+		img{
+			border: 2px gold outset;
+			border-radius: 10px;
+		}
+
 		.bot{
 			position: fixed;
 			font-family: 'Ubuntu', sans-serif;
@@ -81,14 +91,24 @@
 			box-shadow: 22px 30px 12px 10px rgb(193, 230, 253);
 			
 		}
+		p:hover{
+			visibility: hidden;
+		}
 		
+		img:nth-child(2n){
+			visibility: hidden;
+		}
+
+		img:hover + img{
+			visibility: visible;
+		}
 		</style>
     </head>
 	<body>
 		<div class="wrapper">
 
 			<div class="code">
-            ------------------- This is a message for you to read. -------------------- transupstantionalist salmon splash -------------------- among us. If you understand the --------------------- previous words it's because it's --------------------- from a video made by minecraft youtubers. 
+            This is a message for you to read.transupstantionalist salmon splash among us. If you understand the previous words it's because it's from a video made by minecraft youtubers. 
 			</div>
 			<div class="instagram"></div>
 			<div class="lpgo"></div>
@@ -101,7 +121,7 @@
 				<img src="img/Bee duo.jpg" alt="This is a selfie" width="250" height="200">
 				<img src="img/Red banquet Boo.png" alt="o no" width="250" height="200">
 			</div>
-			<div class="bot"> cheese and rice  </div>
+			<div class="bot"> <p>cheese and rice  </p></div>
 
 
 
